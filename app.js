@@ -73,7 +73,7 @@ function errShow(item, err) {
 function asyncWrite(data, target, err, finish) {
     if (!repo)
         Spine.Route.navigate("");
-    repo.write("master", target, data, "simple",
+    repo.write("master", target, data, "Hellc",
                function(e) {
                    var ret = err(e);
                    if (ret == false)
@@ -252,7 +252,7 @@ $(document).ready(function() {
             }
         }
     });
-    var SimpleApp = Spine.Controller.sub({
+    var HellcApp = Spine.Controller.sub({
         el: $("body"),
         init: function() {
             this.logins = new Logins();
@@ -355,7 +355,7 @@ $(document).ready(function() {
             Spine.Route.setup();
         }
     });
-    new SimpleApp();
+    new HellcApp();
     $("#editmd").on("keyup", function() {
         mdupdate();
     });
