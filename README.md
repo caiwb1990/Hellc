@@ -1,4 +1,0 @@
-Hellc
-=====
-
-static blog
