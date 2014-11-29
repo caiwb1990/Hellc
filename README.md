@@ -4,7 +4,7 @@ Hellc
 
 [Hellc](http://caiwb1990.github.io/Hellc/)
 
-[Blog demo](http://caiwb1990.github.io/)
+[Hellc's Blog](http://caiwb1990.github.io/)
 
 [Lightweight markdown editor](http://caiwb1990.github.io/Hellc/editor.html)
 
